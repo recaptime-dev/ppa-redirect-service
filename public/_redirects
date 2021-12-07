@@ -1,0 +1,9 @@
+# GitLab repository
+/ https://gitlab.com/RecapTime/infra/packages-store
+
+# Sources
+/source https://github.com/RecapTime/ppa-redirect-service
+/src https://github.com/RecapTime/ppa-redirect-service
+
+# Packages stuff KEK
+/debian/pool/main/:firstLetter/:packageName/:deb https://gitlab.com/RecapTime/infra/packages-store/-/raw/main/debs/:firstLetter/:packageName/:deb
