@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Repo Sync
+    init: git cloe https://gitlab.com/RecapTime/infra/packages-store pkg-store
+    before: git -C "$PWD/pkg-store" pull --rebase=false
